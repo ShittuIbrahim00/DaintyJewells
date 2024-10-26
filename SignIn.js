@@ -108,7 +108,7 @@ $(document).ready(function () {
 
         if (isValid === true) {
             $.ajax({
-              url: "https://ecommerce.reworkstaging.name.ng/v2/merchants",
+              url: "http://ecommerce.reworkstaging.name.ng/v2/merchants",
               type: "POST",
               contentType: "application/json",
               data: JSON.stringify({

@@ -5,7 +5,7 @@ $(document).ready(function () {
  
 
     $.ajax({  
-        url: `https://ecommerce.reworkstaging.name.ng/v2/products/${productId}`,  
+        url: `http://ecommerce.reworkstaging.name.ng/v2/products/${productId}`,  
         type: "GET",  
         success: function (res) {  
             console.log(res); 
