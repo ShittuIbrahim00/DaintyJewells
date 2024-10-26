@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid {
+    display: grid;
+}
+.two-col {
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+}
+.twocol {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+}
+.fourcol {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+}
+.sidebar {    
+    background-color: #10dcea88;  
+    color: black;  
+    padding: 20px;  
+    transition: width 0.5s; /* Smooth transition for width */  
+}  
+.sidebar h2 {  
+    margin-bottom: 20px;  
+    font-size: 3em;  
+}  
+  
+.sidebar ul {  
+    list-style: none;  
+}  
+  
+.sidebar ul li {  
+    margin-bottom: 10px;  
+}  
+  
+.sidebar ul li a {  
+    color: black;  
+    text-decoration: none;  
+    transition: color 0.5s; /* Smooth color transition */  
+}  
+  
+.sidebar ul li a:hover {  
+    color: #ccc;  
+    font-size: 1.5em;  
+} 
+input, select, textarea {
+    width: 100%;
+}

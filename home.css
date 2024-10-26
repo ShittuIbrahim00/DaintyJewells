@@ -1,0 +1,603 @@
+@font-face {
+    font-family: italic;
+    src: url(/fonts/Italic.woff2);
+}
+@font-face {
+    font-family: thick;
+    src: url(/fonts/thick.woff2);
+}
+@font-face {
+    font-family: smallthick;
+    src: url(/fonts/tinythick.woff2);
+}
+@font-face {
+    font-family: about;
+    src: url(/fonts/about.woff2);
+}
+@font-face {
+    font-family: Icon;
+    src: url(/fonts/icons.ttf);
+}
+/* Nav */
+.leftLogoImg {
+    background-image: url("https://www.daintyjewells.com/asset/66f5960bde210?h=250&fit=max&fm=webp");
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -10px;
+}
+.midLogoImg {
+    background-image: url("https://cdn11.bigcommerce.com/s-x44wvls/stencil/1014d8c0-5366-013d-6b8f-162daa4a7cb5/e/8a6488d0-5365-013d-5b86-7ace73b76492/images/dainty-jewells-logo.png");
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-position: center;
+    top: -30px;
+}
+.rightLogoImg {
+    background-image: url("https://www.daintyjewells.com/asset/66f59616d7e4f?h=250&fit=max&fm=webp");
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -10px;
+}
+.font-system {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.icons {
+    color: #c64c1b90;
+    font-size: 1.2em;
+}
+.footer-bg {
+    background-image: url("https://www.daintyjewells.com/asset/66f59505e6f54?h=250&fit=max&fm=webp");
+    height: 500px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.grid {
+    display: grid;
+}
+.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.span span {
+    margin-bottom: 15px;
+    font-size: .9em;
+    font-family: smallthick;
+}
+
+/* nav and footer ends */
+.herobg {
+    background-image: url(https://daintyjewells.com/asset/66f6043491ac8?w=1600&fit=max);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.grid {
+    display: grid;
+}
+.flex {
+    display: flex;
+}
+.fd {
+    display: flex;
+    flex-direction: column;
+}
+.two-col {
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
+    margin: auto;
+    gap: 50px;
+}
+.img-one {
+   background-image: url(https://daintyjewells.com/asset/66f600eb6a886?w=635&h=623&fit=crop); 
+   height: 700px;
+   width: 100%;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+}
+.img-one p {
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+    color: white;
+    font-family: italic;
+    font-size: 1.7em;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.img-two {
+    background-image: url(https://daintyjewells.com/asset/66f6010871605?w=535&h=380&fit=crop);
+    height: 700px;
+    width: 85%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+    bottom: -70px;
+}
+.img-two p {
+    position: absolute;
+    bottom: 23%;
+    left: 100px;
+    font-family: italic;
+    font-size: 1.7em;
+    font-weight: 100;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+}
+.oneOfthree {
+    background-image: url(https://daintyjewells.com/asset/66f60123aaabc?w=430&h=535&fit=crop);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.twoOfthree {
+    background-image: url(https://daintyjewells.com/asset/66f60139c7141?w=430&h=535&fit=crop);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.threeOfthree {
+    background-image: url(https://daintyjewells.com/asset/66f6015bc4fa4?w=430&h=535&fit=crop);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.oneOfthreeText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.oneOfthreeText p{
+    font-family: italic;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+.oneOfthreeText span {
+    font-family: about;
+    font-size: .9em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+hr {
+    width: 22%;
+}
+.smallbg {
+    background-image: url(https://daintyjewells.com/asset/618aceb1d0ba9?w=1200&fit=max);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.four-col {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+.oneOffour {
+    background-image: url(https://cdn11.bigcommerce.com/s-x44wvls/products/4587/images/43108/211A7087__07270.1727400640.500.750.JPG?c=2);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.twoOffour {
+    background-image: url(https://cdn11.bigcommerce.com/s-x44wvls/products/4591/images/43207/211A80112__40139.1727100565.500.750.JPG?c=2);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.threeOffour {
+    background-image: url(https://cdn11.bigcommerce.com/s-x44wvls/products/4592/images/43218/211A0899__28913.1727100626.500.750.JPG?c=2);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fourOffour {
+    background-image: url(https://cdn11.bigcommerce.com/s-x44wvls/products/4593/images/43249/211A0559__17609.1727100685.500.750.JPG?c=2);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.oneOffourText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.oneOffourText p{
+    font-family: thick;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.oneOffourText span {
+    font-family: thicksmall;
+    font-size: 1.3em;
+    color: grey;
+}
+.herobg2 {
+    background-image: url(https://daintyjewells.com/asset/5eab63c4ba6fa?w=1600&fit=max);
+    height: 500px;
+    background-size: cover;
+}
+.two_col {
+    grid-template-columns: 1fr 1fr;
+}
+.modest {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.modest p {
+    font-family: italic;
+    text-transform: uppercase;
+    font-size: 3em;
+    width: 60%;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+.modest span, .outpost span {
+    font-family: thick;
+    font-size: 1.3em;
+    width: 60%;
+}
+.modest button {
+    padding: 15px;
+    background-color: white;
+    border: none;
+    font-family: smallthick;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 15px 0;
+}
+.modest-img {
+    background-image: url(https://daintyjewells.com/asset/620d51f541ada?w=330&h=430&fit=max);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+}
+.outfitimg {
+    background-image: url(https://daintyjewells.com/asset/66f48321bd282?w=550&h=465&fit=crop);
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pad50 {
+    padding: 50px 0;
+}
+.outpost {
+    justify-content: center;
+}
+.outpost p{
+    font-family: italic;
+    font-size: 2em;
+    width: 90%;
+    margin: 0px 0 20px 0;
+}
+.outpost h3 {
+    font-family: smallthick;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #BB8885;
+    margin: 0;
+}
+.outpost button {
+    padding: 15px;
+    background-color: #BB8885;
+    border: none;
+    font-family: smallthick;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 25px 0;
+}
+.two-row {
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: auto;
+}
+.inner-col {
+    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+}
+.insp-img {
+    background-image: url(https://daintyjewells.com/asset/66ede2e89e805?w=500&h=500&fit=crop);
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.insp-img1 {
+    background-image: url(https://daintyjewells.com/asset/66ede2f6e5fee?w=500&h=500&fit=crop);
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.small{
+    gap: 10px;
+}
+.small-img {
+    background-image: url(https://daintyjewells.com/asset/66db7624b98a1?w=500&h=500&fit=crop);
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.small-img1 {
+    background-image: url(https://daintyjewells.com/asset/66ede337a6c4b?w=500&h=500&fit=crop);
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.small-img2 {
+    background-image: url(https://daintyjewells.com/asset/66ede39b468fd?w=500&h=500&fit=crop);
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.small-img3 {
+    background-image: url(https://daintyjewells.com/asset/66ede3af28be3?w=500&h=500&fit=crop);
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bgcol {
+    background-color: #FBEFE9;
+    width: 80%;
+    margin: auto;
+}
+.four_col {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px 0;
+    margin: 40px 0;
+}
+.gift {
+    align-items: center;
+}
+.gift p {
+    font-family: italic;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+.gift span {
+    font-family: thick;
+    font-size: 1.15em;
+    color: grey;
+}
+.feminine {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.feminine p{
+    font-family: italic;
+    letter-spacing: 9px;
+    font-size: 5em;
+    color: grey;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
+.feminine span {
+    font-size: .7em;
+}
+.feminine h2 {
+    text-align: center;
+    width: 55%;
+    letter-spacing: 1px;
+    font-family: thick;
+    color: grey;
+    font-weight: lighter;
+}
+
+/* TwoCol */
+.two-col1 {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 70px;
+}
+.bg-colone {
+    background-color: #DFAFA7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.col-one {
+    padding: 40px 0;
+}
+.col-one p {
+    font-family: italic;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.col-one span {
+    font-family: thick;
+    font-size: 1.4em;
+}
+.btn-two button {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-two input {
+    padding: 20px;
+    width: 60%;
+}
+.bg-coltwo {
+    background-color: #EFF1F1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+.col-two p {
+    font-family: italic;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    width: 75%;
+    margin: auto;
+    padding: 20px 0;
+}
+.col-two span {
+    font-family: smallthick;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+/* dd */
+.dd {
+    position: relative !important;
+    display: inline-block;
+}
+.fa-user {
+    cursor: pointer;
+}
+.ddc {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    font-family: about;
+    margin-top: 3px;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.426);
+    border-radius: 5px;
+}
+.ddc a {
+    color: grey;
+    text-decoration: none;
+    font-size: .7em;
+}
+.show{
+    display: block;
+}
+/* dropdowncontent */
+.dropdownmenu {
+    position: relative;
+    display: inline-block;
+}
+.fa-angle-down {
+    cursor: pointer;
+}
+.fa-user {
+    cursor: pointer;
+}
+.userIcon {
+    display: flex;
+}
+.userIcon:hover {
+    color: #DFAFA7;
+}
+.dropdownitems {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    font-family: about;
+    margin-top: 3px;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.426);
+    border-radius: 5px;
+}
+.dropdownitems a {
+    color: grey;
+    text-decoration: none;
+    font-size: .7em;
+}
+.show{
+    display: block;
+}
+
+/* DropdownNav */
+.dropdownNav {
+    width: 100%;
+    z-index: 100;
+}
+.navImg img{
+    width: 70px;
+}
+.smallLogo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 50%;
+    top: 40px;
+}
+.smallLogo img {
+    width: 30px;
+}
+.nav.hide {
+    display: none;
+}
+#reveal {
+    position: fixed;
+    display: none;
+    top: 0;
+    transition: opacity 0.5s;
+    opacity: 0;
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.295);
+    width: 100%;
+}
+#reveal.show {
+    display: block;
+    opacity: 1;
+    z-index: 200;
+    animation: dropdown 2s forwards;
+}
+@keyframes dropdown {
+    0% {
+      height: 0;
+      opacity: 0;
+    }
+    80% {
+      height: auto;
+      opacity: 1;
+    }
+    100% {
+      height: auto;
+      opacity: 1;
+    }
+}
+#reveal.hide {
+    animation: dropdown-reverse 2s forwards;
+} 
+  @keyframes dropdown-reverse {
+    0% {
+      height: auto;
+      opacity: 1;
+    }
+    80% {
+      height: 0;
+      opacity: 0;
+    }
+    100% {
+      height: 0;
+      opacity: 0;
+    }
+} 

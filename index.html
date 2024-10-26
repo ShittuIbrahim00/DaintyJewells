@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://daintyjewells.com/asset/66f5960bde210?h=250&fit=max&fm=webp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Dainty Jewells || Home</title>
+</head>
+<body>
+
+
+    <div class="dropdownNav" id="reveal">
+        <div style="display: flex; justify-content: space-between; position: relative; top: 20px; right: -12px;">
+            <div></div>
+            <div style="display: flex; gap: 10px; width: 12%; align-items: center;" class="font-system">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass icons" style="font-size: .9em;"></i>
+                    <span style="font-size: .6em;">Search</span>
+                </div>
+                <div class="dd">
+                    <i class="fa-regular fa-user icons" style="font-size: .9em;"></i>
+                    <div class="ddc">
+                        <a href="index.html">HOME</a>
+                        <a href="SignUp.html">ACCOUNT</a>
+                        <a href="shop.html">SHOP</a>
+                        <a href="product.html">PRODUCT</a>
+                        <a href="cart.html">CART</a>
+                        <a href="signIn.html">SIGNIN</a>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-regular fa-heart icons" style="font-size: .9em;"></i>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <i class="fa-solid fa-cart-shopping icons" style="font-size: .9em;"></i>
+                    <a style="text-decoration: none; color: black;" href="cart.html"><p id="count" style="font-family: about; font-size: .7em;">(0)</p></a>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+            <div class="navImg">
+                <img src="https://daintyjewells.com/asset/66f5960bde210?h=250&fit=max&fm=webp" alt="">
+            </div>
+            <div class="navImg">
+                <img src="https://daintyjewells.com/asset/66f59616d7e4f?h=250&fit=max&fm=webp" alt="">
+            </div>
+        </div>
+        <div class="smallLogo">
+            <img src="https://cdn11.bigcommerce.com/s-x44wvls/stencil/11913190-618e-013d-1030-7208ebb9ef95/e/8a6488d0-5365-013d-5b86-7ace73b76492/images/dainty-jewells-logo-icon.png" alt="">
+        </div>
+        <div style="display: flex; gap: 40px; font-size: .8em; position: absolute; top: 70px; right: 15%;" class="font-system">
+            <P>AUTUMN</P>
+            <p>BASICS</p>
+            <p>CLASSIC IN BLACK</p>
+            <p>CLEARANCE</p>
+            <p>WOMEN'S</p>
+            <p>DRESSES</p>
+            <p>KIDS</p>
+            <p>WEDDING</p>
+            <p>LAST CHANCE</p>
+            <p>MORE</p>
+        </div>
+    </div>
+
+    <!-- Nav -->
+    <div class="nav">
+        <div style="background-color: #F9E5DD; padding: 1px;">
+            <p style="display: flex; align-items: center; justify-content: center; font-size: .8em;" class="font-system">Fresh, feminine fall styles are in full bloom! Our Fleur de Fall Collection is available now!</p>
+        </div>
+        <div>
+            <div style="display: flex; justify-content: space-between; padding: 10px;">
+                <div style="display: flex; gap: 10px; font-size: .8em;" class="font-system">
+                    <p>GIFT CARD</p>
+                    <p>NEED HELP?</p>
+                </div>
+                <div style="display: flex; gap: 20px; width: 15%; align-items: center;" class="font-system">
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass icons"></i>
+                        <span style="font-size: .7em;">Search</span>
+                    </div>
+                   <div class="userIcon">
+                    <div>
+                        <i class="fa-regular fa-user icons"></i>
+                    </div>
+                    <div class="dropdownpages">
+                            <i class="fa-solid fa-angle-down"></i>
+                        <div class="dropdownitems">
+                            <a href="index.html">HOME</a>
+                            <a href="SignUp.html">ACCOUNT</a>
+                            <a href="shop.html">SHOP</a>
+                            <a href="product.html">PRODUCT</a>
+                            <a href="cart.html">CART</a>
+                            <a href="signIn.html">SIGNIN</a>
+                        </div>
+                    </div>
+                   </div>
+                    <div>
+                        <i class="fa-regular fa-heart icons"></i>
+                    </div>
+                    <div style="display: flex; align-items: center;">
+                        <a href="cart.html"><i class="fa-solid fa-cart-shopping icons"></i></a>
+                        <a style="text-decoration: none; color: black;" href="cart.html"><p id="count" style="font-family: about; font-size: .7em;">(0)</p></a>
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex; border-bottom: 1px solid rgba(128, 128, 128, 0.308);">
+                <div class="leftLogoImg"></div>
+                <div class="midLogoImg"></div>
+                <div class="rightLogoImg"></div>
+            </div>
+            <div style="display: flex; width: 70%; margin: auto; gap: 20px; font-size: .8em; position: relative; top: -80px; right: -50px;" class="font-system">
+                <P>AUTUMN</P>
+                <p>BASICS</p>
+                <p>CLASSIC IN BLACK</p>
+                <p>CLEARANCE</p>
+                <p>WOMEN'S</p>
+                <p>DRESSES</p>
+                <p>KIDS</p>
+                <p>WEDDING</p>
+                <p>LAST CHANCE</p>
+                <p>MORE</p>
+            </div>
+        </div>
+    </div>
+     <!-- Nav end -->
+
+     <!-- Body starts -->
+
+
+
+
+    <div class="herobg"></div>
+    <div class="grid two-col">
+        <div class="img-one">
+            <p>SAY YES TO THE DRESS</p>
+        </div>
+        <div class="img-two">
+            <p>STEP INTO THE SEASON IN STYLE</p>
+        </div>
+    </div>
+    <div class="grid three-col">
+        <div>
+            <div class="oneOfthree"></div>
+            <div class="oneOfthreeText">
+                <p>Sweet Styles for Little Ladies</p>
+                <span class="SHOP" style="cursor: pointer;">SHOP EVENING DRESS</span>
+                <hr>
+            </div>
+        </div>
+        <div>
+            <div class="twoOfthree"></div>
+            <div class="oneOfthreeText">
+                <p>One-of-a-kind Dress Designs</p>
+                <span class="SHOP" style="cursor: pointer;">SHOP AUTUMN</span>
+                <hr>
+            </div>
+        </div>
+        <div>
+            <div class="threeOfthree"></div>
+            <div class="oneOfthreeText">
+                <p>Whimsical Prints & Dainty Details</p>
+                <span class="SHOP" style="cursor: pointer;">SHOP DRESSES</span>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="smallbg"></div>
+    <div style="padding-bottom: 30px;">
+        <p style="display: flex; justify-content: center; font-family: italic; font-size: 2em; color: grey; letter-spacing: 3px; margin: 10px 0;">CUSTOMER FAVORITES</p>
+        <hr>
+    </div>
+    <div class="grid four-col">
+        <div>
+            <div class="oneOffour"></div>
+            <div class="oneOffourText">
+                <p>Breezes & Blossoms Dress</p>
+                <span>$119.95</span>
+            </div>
+        </div>
+        <div>
+            <div class="twoOffour"></div>
+            <div class="oneOffourText">
+                <p>Breezes & Blossoms Dress</p>
+                <span>$119.95</span>
+            </div>
+        </div>
+        <div>
+            <div class="threeOffour"></div>
+            <div class="oneOffourText">
+                <p>Breezes & Blossoms Dress</p>
+                <span>$119.95</span>
+            </div>
+        </div>
+        <div>
+            <div class="fourOffour"></div>
+            <div class="oneOffourText">
+                <p>Breezes & Blossoms Dress</p>
+                <span>$119.95</span>
+            </div>
+        </div>
+    </div>
+    <div class="herobg2">
+        <div class="grid two_col">
+            <div class="modest fd">
+                <p>Modest Fashions That Are Fashion Forward</p>
+                <span>What started as a passion, has grown into a full ministry for women across the world.</span>
+                <button>OUR STORY</button>
+            </div>
+            <div class="modest-img"></div>
+        </div>
+    </div>
+    <div class="grid two-col pad50">
+        <div class="outfitimg"></div>
+        <div class="outpost fd">
+            <h3>OUTFIT INSPO</h3>
+            <p>Fall Favorites: Charity's Top Picks for Autumn</p>
+            <span>Charity's picks of the season</span>
+            <div>
+                <button>READ POST</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div style="padding-bottom: 30px;">
+            <p style="display: flex; justify-content: center; font-family: italic; font-size: 2em; color: grey; letter-spacing: 3px; margin: 10px 0;">BE INSPIRED</p>
+            <hr>
+        </div>
+        <div class="grid two-row">
+            <div class="grid inner-col">
+                <div class="insp-img"></div>
+                <div class="grid small">
+                    <div class="small-img"></div>
+                    <div class="small-img1"></div>
+                </div>
+            </div>
+            <div class="grid inner-col">
+                <div class="insp-img1"></div>
+                <div class="grid small">
+                    <div class="small-img2"></div>
+                    <div class="small-img3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bgcol">
+        <div class="grid four_col">
+            <div class="gift fd">
+                <img src="https://daintyjewells.com/asset/5db0bfb3157c1?w=95&h=95&fit=max" alt="">
+                <p>GIFT CARDS</p>
+                <span>A perfect gift for any occasion</span>
+            </div>
+            <div class="gift fd">
+                <img src="https://daintyjewells.com/asset/5e1f5aaba893e?w=95&h=95&fit=max" alt="">
+                <p>REWARDS PROGRAM</p>
+                <span>Perks, savings and more</span>
+            </div>
+            <div class="gift fd">
+                <img src="https://daintyjewells.com/asset/5db0bfb203e32?w=95&h=95&fit=max" alt="">
+                <p>SIZING GUIDES</p>
+                <span>Find your right fit</span>
+            </div>
+            <div class="gift fd">
+                <img src="https://daintyjewells.com/asset/5db0c01b969f7?w=95&h=95&fit=max" alt="">
+                <p>ORDER STATUS</p>
+                <span>Order shipping, tracking and returns</span>
+            </div>
+        </div>
+    </div>
+    <div class="feminine fd">
+        <p>Feminine <span>Modest</span> Clothing</p>
+        <h2>Lovely, unique, high-quality pieces created for women who want to dress fashionably without compromising modesty. We design timeless styles for ladies of every age and stage of life. Designed in-house in small batch quantities with intention and care. One of the largest selections for modest womens, girls, plus size and wedding apparel. Our mission is to deliver flawless elegance for every occasion in a woman's life while creating a legacy and community for generations to come. We are committed to making an eternal impact by celebrating and supporting all women. </h2>
+    </div>
+
+    <div class="grid two-col1">
+        <div class="bg-colone">
+            <div class="col-one">
+                <p>Connect with us</p>
+                <span>Receive exclusive discounts and updates in your inbox!</span>
+                <div class="btn-two">
+                    <input type="text" placeholder="EMAIL ADDRESS">
+                    <button>SIGN UP</button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-coltwo">
+            <div class="col-two">
+                <img src="https://cdn11.bigcommerce.com/s-x44wvls/stencil/1014d8c0-5366-013d-6b8f-162daa4a7cb5/e/8a6488d0-5365-013d-5b86-7ace73b76492/images/quotation-sm.png" alt="">
+                <p>And who knows but that you have come to your position for such a time as this?</p>
+                <span>(Esther 4:14)</span>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-bg">
+            <div class="grid three-col" style="border-top: 1px rgba(128, 128, 128, 0.416) solid;">
+                <div style="display: flex; flex-direction: column; align-items: center; text-align: center; border-right: 1px rgba(128, 128, 128, 0.406) solid; padding: 30px;">
+                    <h1 style="color: #F9E5DD; text-transform: uppercase; font-weight: lighter; letter-spacing: 2px; font-family: italic;">How can we help?</h1>
+                    <span style="width: 70%; color: grey; font-family: thick; font-size: 1.1em;">We’re known for our exceptional customer service, and we would be happy to help!</span>
+                    <p style="font-family: italic; font-size: 2.5em; margin: 20px 0;">(800) 663-1594</p>
+                    <h1 style="font-family: thick; font-weight: lighter; color: #F9E5DD;margin: 0;">Contact us</h1>
+                </div>
+                <div style="border-right: 1px rgba(77, 75, 75, 0.447) solid; padding: 30px;">
+                    <div class="grid three-col">
+                        <div class="grid span">
+                            <p style="font-family: about; font-size: .8em;font-weight: 500;">ABOUT</p>
+                            <span>Our Story</span>
+                            <span>Our Foundation</span>
+                            <span>Reward Program</span>
+                            <span>Let's collaborate</span>
+                            <span>She's International Blog</span>
+                            <span>Local Shop</span>
+                            <span>Events</span>
+                            <span>Press</span>
+                            <span>Host a Party</span>
+                            <span>Jobs</span>
+                        </div>
+                        <div class="grid span">
+                            <p style="font-family: about; font-size: .8em;font-weight: 500;">HELP</p>
+                            <span>Customer Service</span>
+                            <span>FAQs</span>
+                            <span>Shipping Policy</span>
+                            <span>Easy Returns</span>
+                            <span>Order Status</span>
+                            <span>Sizing Guide</span>
+                            <span>Meet the Models</span>
+                            <span>Contact Us</span>
+                        </div>
+                        <div class="grid span">
+                            <p style="font-family: about; font-size: .8em; font-weight: 500;">MORE</p>
+                            <span>Gift Cards</span>
+                            <span>Referral Program</span>
+                            <span>Peony Street Boutique</span>
+                            <span>Wedding Packages</span>
+                            <span>Wedding Attire</span>
+                            <span>Lookbooks</span>
+                            <span>Extended Sizing</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding: 30px;">
+                    <div style="display: flex; flex-direction: column; align-items: center; text-align: center; border-bottom: 1px solid grey; padding-bottom: 40px;">
+                        <h1 style="color: #F9E5DD; text-transform: uppercase; font-weight: lighter; letter-spacing: 2px; width: 80%; font-family: italic;">She's Intentional Blog</h1>
+                        <span style="width: 90%; color: grey; font-family: thick; font-size: 1.1em;">A daily dose of inspiration dedicated to encouraging young millennial women to live a life of resolved purpose and intention.</span>
+                    </div>
+                    <div style="display: flex; justify-content: center; gap: 40px; font-size: 1.5em; margin: 50px 0;">
+                        <div>
+                            <i class="fa-brands fa-instagram icons"></i>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-facebook-f icons"></i>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-pinterest-p icons"></i>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-youtube icons"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+    <script src="SignIn.js"></script>
+    <script src="shop.js"></script>
+    <script src="product.js"></script>
+</body>
+</html>
