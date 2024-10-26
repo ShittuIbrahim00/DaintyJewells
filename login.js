@@ -26,7 +26,7 @@ $(document).ready(function () {
   
       if (isValid === true) {
         $.ajax({
-          url: "http://ecommerce.reworkstaging.name.ng/v2/merchants/login",
+          url: "https://ecommerce.reworkstaging.name.ng/v2/merchants/login",
           type: "POST",
           contentType: "application/json",
           data: JSON.stringify({

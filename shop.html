@@ -301,7 +301,7 @@
     
         function fetchProducts(userId) {
             let xhr = new XMLHttpRequest();
-            xhr.open('GET', `http://ecommerce.reworkstaging.name.ng/v2/products?merchant_id=${userId}`, true);
+            xhr.open('GET', `https://ecommerce.reworkstaging.name.ng/v2/products?merchant_id=${userId}`, true);
     
             xhr.onload = function() {
                 if (this.status === 200) {
