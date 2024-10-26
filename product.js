@@ -3,11 +3,6 @@ $(document).ready(function () {
     let productId = localStorage.getItem("selectedProductId");  
     console.log("Product ID:", productId);  
  
-    // if (!productId) {  
-    //     alert("Product ID is missing. Redirecting to shop.");  
-    //     window.location.href = "shop.html";
-    //     return;  
-    // }  
 
     $.ajax({  
         url: `http://ecommerce.reworkstaging.name.ng/v2/products/${productId}`,  
