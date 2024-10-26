@@ -1,22 +1,22 @@
 @font-face {
     font-family: italic;
-    src: url(/fonts/Italic.woff2);
+    src: url(fonts/Italic.woff2);
 }
 @font-face {
     font-family: thick;
-    src: url(/fonts/thick.woff2);
+    src: url(fonts/thick.woff2);
 }
 @font-face {
     font-family: smallthick;
-    src: url(/fonts/tinythick.woff2);
+    src: url(fonts/tinythick.woff2);
 }
 @font-face {
     font-family: about;
-    src: url(/fonts/about.woff2);
+    src: url(fonts/about.woff2);
 }
 @font-face {
     font-family: Icon;
-    src: url(/fonts/icons.ttf);
+    src: url(fonts/icons.ttf);
 }
 /* Nav */
 .leftLogoImg {
